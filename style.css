@@ -1,0 +1,21 @@
+.boardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boardContainer > div {
+    display: flex;
+    flex-direction: row;
+}
+
+.boardContainer > div > div {
+    aspect-ratio: 2 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: min(15vw, 30vh);
+    height: min(15vw, 30vh);
+    border: 1px solid black;
+    font-size: 3rem;
+}
